@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(194, 209, 211);
+    margin: 0px;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(78, 104, 104);
+    border-style: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.container {
+    height: 500px;
+    width: 500px;
+}
+
+.square {
+    float: left;
+}
+
+.squareColor {
+    background-color: blue;
+}
+
+.newColor {
+    background-color: yellow;
+}
